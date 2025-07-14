@@ -1,0 +1,14 @@
+
+/* Reset box-sizing, margin, and padding */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

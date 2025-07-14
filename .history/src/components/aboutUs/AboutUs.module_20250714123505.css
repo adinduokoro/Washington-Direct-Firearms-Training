@@ -1,0 +1,155 @@
+/* AboutUs.module.css */
+
+.aboutSection {
+  padding: 5rem 0;
+  background-color: var(--background);
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(66, 155, 206, 0.1);
+  border: 1px solid rgba(66, 155, 206, 0.3);
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+.badgeIcon {
+  color: var(--primary);
+  width: 1rem;
+  height: 1rem;
+}
+
+.badgeText {
+  color: var(--primary);
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  color: var(--primary);
+  display: block;
+}
+
+.paragraph {
+  font-size: 1.125rem;
+  color: #cccccc;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.subParagraph {
+  color: #999999;
+  margin-bottom: 2rem;
+}
+
+.valuesGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .valuesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.valueItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.valueIconWrapper {
+  background-color: rgba(66, 155, 206, 0.2);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.valueTitle {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.25rem;
+}
+
+.valueText {
+  color: #cccccc;
+  font-size: 0.875rem;
+}
+
+.imageSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(66, 155, 206, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+
+.cardImage {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+}
+
+.cardOverlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cardTextWrapper {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+}
+
+.cardTitle {
+  font-weight: bold;
+}
+
+.cardSubtitle {
+  font-size: 0.875rem;
+  color: #cccccc;
+}
+
+.gridCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.smallCardImage {
+  height: 8rem;
+}

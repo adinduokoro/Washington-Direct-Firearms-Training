@@ -1,0 +1,15 @@
+.layout {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.outlet {
+    margin-top: 5.0625rem;
+}
