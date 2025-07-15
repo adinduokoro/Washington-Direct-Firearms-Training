@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutUs, Hero, ProductsClasses, WhatWeOffer } from '../../components'
+import { AboutUs, Gallery, Hero, LocationInfo, ProductsClasses, WhatWeOffer } from '../../components'
 // import { Hero } from "./components/Hero";
 // import { AboutUs } from "./components/AboutUs";
 // import { WhatWeOffer } from "./components/WhatWeOffer";
@@ -16,6 +16,8 @@ const HomePage = () => {
       <AboutUs />
       <WhatWeOffer />
       <ProductsClasses />
+      <Gallery />
+      <LocationInfo />
     </div>
   )
 }
