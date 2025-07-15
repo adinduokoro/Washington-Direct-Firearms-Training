@@ -1,0 +1,233 @@
+/* Footer.module.css */
+
+.footer {
+  background-color: var(--brand-black);
+  border-top: 1px solid rgba(66, 155, 206, 0.3);
+  color: var(--foreground);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4rem 1rem 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.logoWrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.brandName {
+  font-size: 1.125rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: var(--foreground);
+}
+
+.tagline {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.description {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.certifications h4,
+.title {
+  color: var(--foreground);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.certItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  margin-bottom: 0.75rem;
+}
+
+.certIcon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--primary);
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.linkList a {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.linkList a:hover {
+  color: var(--primary);
+}
+
+.mt {
+  margin-top: 2rem;
+}
+
+.contactSection {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--primary);
+}
+
+.newsletter {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid rgba(66, 155, 206, 0.3);
+  background-color: var(--input-background);
+  color: var(--foreground);
+  border-radius: 0.25rem;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.button {
+  background-color: var(--primary);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #2f82b4;
+}
+
+.subheading {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--foreground);
+}
+
+.socialIcons {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.socialBtn {
+  background-color: transparent;
+  border: 1px solid rgba(66, 155, 206, 0.5);
+  color: var(--primary);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.socialBtn:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.hours {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.hours div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.bottomBar {
+  border-top: 1px solid rgba(66, 155, 206, 0.3);
+  padding-top: 2rem;
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .bottomBar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.legalLine {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}

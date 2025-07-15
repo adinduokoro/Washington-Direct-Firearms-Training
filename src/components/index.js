@@ -5,3 +5,5 @@ export { default as WhatWeOffer } from "./whatWeOffer/WhatWeOffer";
 export { default as ProductsClasses } from "./productsClasses/ProductsClasses";
 export { default as Gallery } from "./gallery/Gallery";
 export { default as LocationInfo } from "./locationInfo/LocationInfo";
+export { default as Contact } from "./contact/Contact";
+export { default as Footer } from "./footer/Footer";
