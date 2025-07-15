@@ -7,36 +7,36 @@ const valueItems = [
   {
     icon: <Shield className={styles.iconMedium} />,
     title: "SAFETY FIRST",
-    text: "Every training begins with comprehensive safety protocols"
+    text: "Every training begins with comprehensive safety protocols",
   },
   {
     icon: <Target className={styles.iconMedium} />,
     title: "PRECISION TRAINING",
-    text: "Focused instruction on accuracy and technique"
+    text: "Focused instruction on accuracy and technique",
   },
   {
     icon: <Award className={styles.iconMedium} />,
     title: "CERTIFIED EXPERTS",
-    text: "Military and law enforcement backgrounds"
+    text: "Military and law enforcement backgrounds",
   },
   {
     icon: <Clock className={styles.iconMedium} />,
     title: "PROVEN METHODS",
-    text: "Time-tested training methodologies"
-  }
+    text: "Time-tested training methodologies",
+  },
 ];
 
 const imageCards = [
   {
     src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=400&q=80",
     alt: "Modern training facility",
-    caption: "STATE-OF-THE-ART FACILITY"
+    caption: "STATE-OF-THE-ART FACILITY",
   },
   {
     src: "https://images.unsplash.com/photo-1595590424283-b8f17842773f?auto=format&fit=crop&w=400&q=80",
     alt: "Safety equipment and gear",
-    caption: "PROFESSIONAL EQUIPMENT"
-  }
+    caption: "PROFESSIONAL EQUIPMENT",
+  },
 ];
 
 const AboutUs = () => {
@@ -52,15 +52,24 @@ const AboutUs = () => {
             </div>
 
             <h2 className={styles.title}>
-              WASHINGTON'S PREMIER <span className={styles.highlight}>FIREARMS TRAINING</span>
+              WASHINGTON'S PREMIER{" "}
+              <span className={styles.highlight}>FIREARMS TRAINING</span>
             </h2>
 
             <p className={styles.paragraph}>
-              Washington Direct Firearm Training is dedicated to providing the highest quality firearms education and tactical training in the Pacific Northwest. Our mission is to develop competent, confident, and safe shooters through professional instruction and proven methodologies.
+              Washington Direct Firearm Training is dedicated to providing the
+              highest quality firearms education and tactical training in the
+              Pacific Northwest. Our mission is to develop competent, confident,
+              and safe shooters through professional instruction and proven
+              methodologies.
             </p>
 
             <p className={styles.subParagraph}>
-              Founded by military veterans and law enforcement professionals, we bring real-world experience to every training session. Whether you're a complete beginner or an experienced shooter looking to enhance your skills, our comprehensive programs are designed to meet you where you are and take you to the next level.
+              Founded by military veterans and law enforcement professionals, we
+              bring real-world experience to every training session. Whether
+              you're a complete beginner or an experienced shooter looking to
+              enhance your skills, our comprehensive programs are designed to
+              meet you where you are and take you to the next level.
             </p>
 
             <div className={styles.valuesGrid}>
@@ -97,11 +106,7 @@ const AboutUs = () => {
               {imageCards.map((img, idx) => (
                 <div key={idx} className={styles.cardSmall}>
                   <div className={styles.imageWrapperSmall}>
-                    <img
-                      src={img.src}
-                      alt={img.alt}
-                      className={styles.image}
-                    />
+                    <img src={img.src} alt={img.alt} className={styles.image} />
                     <div className={styles.overlay}></div>
                     <div className={styles.captionSmall}>
                       <p>{img.caption}</p>

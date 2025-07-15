@@ -132,6 +132,8 @@
   line-height: 1.5;
 }
 
+
+
 .includesTitle {
   font-size: 0.875rem;
   font-weight: 600;
@@ -161,6 +163,7 @@
   margin-right: 0.75rem;
   transform: rotate(45deg);
 }
+
 
 .learnMore {
   width: 100%;

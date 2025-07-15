@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutUs, Hero, WhatWeOffer } from '../../components'
+import { AboutUs, Hero, ProductsClasses, WhatWeOffer } from '../../components'
 // import { Hero } from "./components/Hero";
 // import { AboutUs } from "./components/AboutUs";
 // import { WhatWeOffer } from "./components/WhatWeOffer";
@@ -15,6 +15,7 @@ const HomePage = () => {
       <Hero />
       <AboutUs />
       <WhatWeOffer />
+      <ProductsClasses />
     </div>
   )
 }
