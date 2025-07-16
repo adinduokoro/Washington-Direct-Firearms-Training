@@ -31,6 +31,7 @@ const Hero = () => {
   return (
     <section id="hero" className={styles.heroSection}>
       <div className={styles.backgroundImageWrapper}>
+        
         <img
           src="https://images.unsplash.com/photo-1544717302-de2939b7ef71?auto=format&fit=crop&w=2000&q=80"
           alt="Tactical firearms training background"
